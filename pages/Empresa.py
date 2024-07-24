@@ -22,10 +22,10 @@ dados_originais = pd.read_csv('dados.csv')
 dados = trata_df(dados_originais)
 
 #################### Configurações da página do Streamlit ####################
-st.set_page_config(page_title='Visão da Empresa', layout='wide')
+st.set_page_config(page_title='Empresa', layout='wide', page_icon='🏢')
 
 #################### Título da página do Streamlit ####################
-st.markdown('# Marketplace - Visão da Empresa')
+st.markdown('# Dashboard - Empresa')
 
 #################### Barra lateral do Streamlit ####################
 # Inserir o logo da empresa

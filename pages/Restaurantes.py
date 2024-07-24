@@ -16,16 +16,16 @@ from tratamento import trata_df
 
 #################### Leitura e Tratamento dos Dados ####################
 # Ler os dados originais
-dados_originais = pd.read_csv('dados.csv')
+dados_originais = pd.read_csv('dados.csv') 
 
 # Tratar os dados originais com a função criada
 dados = trata_df(dados_originais)
 
 #################### Configurações da página do Streamlit ####################
-st.set_page_config(page_title='Visão dos Restaurantes', layout='wide')
+st.set_page_config(page_title='Restaurantes', layout='wide', page_icon='🍽️')
 
 #################### Título do Streamlit ####################
-st.markdown('# Marketplace - Visão dos Restaurantes')
+st.markdown('# Dashboard - Restaurantes')
 
 #################### Barra lateral do Streamlit ####################
 # Inserir o logo da empresa

@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 # Ajustar a configuração do Streamlit
-st.set_page_config(page_title='Home')
+st.set_page_config(page_title='Home', layout='wide', page_icon='🌐')
 
 # Inserir o logo da empresa no Streamlit
 image = Image.open('fast_delivery_logo.png')
@@ -36,4 +36,4 @@ st.markdown("""
                           
             ### Ajuda
             GitHub: rafa-c-ramos.
-             """)
+            """)

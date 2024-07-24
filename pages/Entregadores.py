@@ -22,10 +22,10 @@ dados_originais = pd.read_csv('dados.csv')
 dados = trata_df(dados_originais)
 
 #################### Configurações da página do Streamlit ####################
-st.set_page_config(page_title='Visão dos Entregadores', layout='wide')
+st.set_page_config(page_title='Entregadores', layout='wide', page_icon='🏍️')
 
 #################### Título do Streamlit ####################
-st.markdown('# Marketplace - Visão dos Entregadores')
+st.markdown('# Dashboard - Entregadores')
 
 #################### Barra lateral do Streamlit ####################
 # Inserir o logo da empresa
