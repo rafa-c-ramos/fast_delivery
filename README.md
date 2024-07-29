@@ -10,4 +10,4 @@ Para solucionar o problema de negócio, foi feito um dashboard com gráficos int
 
 ## **Produto Final**
 
-O produto final do projeto foi um dashboard interativo que pode ser acessado pelo link: https://fastdeliverydashboard-2kxg7emjuwjga3vbavleu7.streamlit.app/
+O produto final do projeto foi um dashboard interativo que pode ser acessado pelo link: https://fastdeliverydashboard-2kxg7emjuwjga3vbavleu7.streamlit.app/.
